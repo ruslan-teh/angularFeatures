@@ -1,0 +1,12 @@
+<div>
+  <label>Green<input type="radio" name="color" (click)="color='lightgreen'"></label>
+  <label>Yellow<input type="radio" name="color" (click)="color='yellow'"></label>
+  <label>blue<input type="radio" name="color" (click)="color='blue'"></label>
+</div>
+<div class="conteiner">
+  <app-user *ngFor="let user of users"
+            [user]='user'
+            [color] ='color'
+  >
+  </app-user>
+</div>

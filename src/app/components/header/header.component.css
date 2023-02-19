@@ -1,0 +1,17 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px 0;
+  margin: 20px 0;
+}
+
+ul>li>a{
+  text-decoration: none;
+  color: brown;
+}
+
+ul>li{
+  text-decoration: none;
+  list-style: none;
+}
